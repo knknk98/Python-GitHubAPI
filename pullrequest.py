@@ -27,3 +27,6 @@ m = 10
 for p in pulls:
     if now - p.updated_at > timedelta(minutes=m):
         print(p.title + 'がしばらく更新されていません')
+
+# プルリクタイトル変更
+pulls[0].edit(title="にやにやり")
