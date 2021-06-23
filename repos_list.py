@@ -4,7 +4,6 @@ from local_settings import *
 # 自分のリポジトリ一覧を取得
 
 token = MY_OAUTH_TOKEN
-
 g = Github(token)
 
 print("🦀自分のリポジトリ一覧を取得🦀")
